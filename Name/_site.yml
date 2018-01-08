@@ -1,0 +1,20 @@
+name: final_project about air
+runtime: shiny
+outpu_dir: '.'
+navbar:
+  title: air project
+  left:
+  - text: index
+    href: index.html
+  - text: air_analysis
+    href: finalp.html
+  - text: Interaction Visualized
+    href: https://jane.shinyapps.io/interactive/
+output:
+  html_document:
+    theme: flatly
+    lib_dir: site_libs
+    self_contained: no
+always_allow_html: yes
+output_dir: _site
+
